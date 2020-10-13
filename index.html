@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style> 
-            h1{
-                border:5px solid violet;
-                background-color:lavenderblush;
-            }
-        </style>
+        <script> 
+
+        </script>
     </head>
     <body>
         <hl> WEB </hl>
         <input type = "button" value="day"
         style="border: 5px solid navajowhite;"
-        onclick="document.querySelector('body').style.backgroundColor='white';
-                document.querySelector('body').style.color='black';
+        onclick="var bodyTag = document.querySelector('h1');
+                bodyTag.style.backgroundColor='white';
+                bodyTag.style.color='black';
                 document.querySelector('#a1').style.color='black';
                 document.querySelector('#a2').style.color='black';
                 document.querySelector('#a3').style.color='black';
@@ -21,8 +19,9 @@
 
         <input type = "button" value="night"
         style="border: 5px solid navy;"
-        onclick="document.querySelector('body').style.backgroundColor='black';
-                 document.querySelector('body').style.color='white';
+        onclick="var bodyTag = document.querySelector('h1');
+                 bodyTag.style.backgroundColor='black';
+                 bodyTag.style.color='white';
                  document.querySelector('#a1').style.color='white';
                  document.querySelector('#a2').style.color='white';
                  document.querySelector('#a3').style.color='white';
@@ -30,8 +29,9 @@
 
         <input type = "button" value="petal"
         style="border: 5px solid purple;"
-        onclick="document.querySelector('body').style.backgroundColor='lavenderblush';
-                document.querySelector('body').style.color='violet';
+        onclick="var bodyTag = document.querySelector('h1');
+                bodyTag.style.backgroundColor='lavenderblush';
+                bodyTag.style.color='violet';
                 document.querySelector('#a1').style.color='violet';
                 document.querySelector('#a2').style.color='violet';
                 document.querySelector('#a3').style.color='violet';
@@ -39,8 +39,9 @@
 
         <input type = "button" value="ocean"
         style="border: 5px solid royalblue;"
-        onclick="document.querySelector('body').style.backgroundColor='lightblue';
-                document.querySelector('body').style.color='navy';
+        onclick="var bodyTag = document.querySelector('h1');
+                bodyTag.style.backgroundColor='lightblue';
+                bodyTag.style.color='navy';
                 document.querySelector('#a1').style.color='blue';
                 document.querySelector('#a2').style.color='blue';
                 document.querySelector('#a3').style.color='blue';
